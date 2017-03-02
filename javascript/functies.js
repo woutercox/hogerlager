@@ -19,7 +19,7 @@ function nieuwGetal(event){
         }
     else if (input == rand)
         {
-            output.innerHTML = 'Hoera gewonnen! Het getal was '+input;
+            document.getElementById('cat').visibility = "visibile"
         }
     else if (isNaN(input))
         {
