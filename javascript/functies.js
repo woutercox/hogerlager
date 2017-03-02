@@ -3,6 +3,7 @@ window.onload = init;
 var rand = Math.floor(Math.random() * 100 + 1);
 function init(){
     document.getElementById('gok').addEventListener('click', nieuwGetal);
+    console.log(rand);
 }
 
 function nieuwGetal(event){
@@ -19,8 +20,8 @@ function nieuwGetal(event){
         }
     else if (input == rand)
         {
-            document.getElementById('cat').style.visibility = "visible"; 
-                }
+            output.innerHTML = '<img src="img/cat-winner.jpg" alt="" class="winnaar" />';
+        }
     else if (isNaN(input))
         {
             output.innerHTML = 'Geef een getal in foefelaar!';
