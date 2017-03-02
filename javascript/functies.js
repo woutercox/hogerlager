@@ -1,6 +1,6 @@
 window.onload = init;
 
-var rand = Math.floor(Math.random() * 100 +1);
+var rand = Math.floor(Math.random() * 100 + 1);
 function init(){
     document.getElementById('gok').addEventListener('click', nieuwGetal);
 }
