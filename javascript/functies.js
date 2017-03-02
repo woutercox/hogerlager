@@ -19,8 +19,8 @@ function nieuwGetal(event){
         }
     else if (input == rand)
         {
-            document.getElementById('cat').visibility = "visibile"
-        }
+            document.getElementById('cat').style.visibility = "visible"; 
+                }
     else if (isNaN(input))
         {
             output.innerHTML = 'Geef een getal in foefelaar!';
