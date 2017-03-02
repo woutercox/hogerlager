@@ -1,19 +1,12 @@
 window.onload = init;
 
-var vorigGetal = null;
 function init(){
+    console.log('test');
     document.getElementById('hoger').addEventListener('click', nieuwGetal);
     document.getElementById('lager').addEventListener('click', nieuwGetal);
 }
 
-function nieuwGetal(){
-    var display = document.getElementById('display');
-    if (vorigGetal == null)
-        {
-            display.appendChild('<li>'+Math.floor(Math.random() *10)+'</li>');
-        }
-    else 
-        {
-            console.log(this);
-        }
+function nieuwGetal(event){
+    event.preventDefault();
+   
 }
