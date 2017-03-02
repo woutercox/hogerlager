@@ -6,6 +6,7 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41295a', endColorstr='#2989d8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
     min-height: 100vh;
+
 }
 .container {
             margin: 40px auto;
@@ -29,5 +30,4 @@ fieldset {
 
 .winnaar {
     border-radius: 50%;
-    visibility: hidden;
 }
