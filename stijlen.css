@@ -26,3 +26,8 @@ button {
 fieldset {
     border: none;
 }
+
+.winnaar {
+    border-radius: 50%;
+    visibility: hidden;
+}
