@@ -1,9 +1,19 @@
+body {
+    background: #41295a; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #41295a 0%, #2f0743 100%, #7db9e8 100%, #2989d8 100%, #2989d8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #41295a 0%,#2f0743 100%,#7db9e8 100%,#2989d8 100%,#2989d8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #41295a 0%,#2f0743 100%,#7db9e8 100%,#2989d8 100%,#2989d8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41295a', endColorstr='#2989d8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
 .container {
-            margin: 0 auto;
+            margin: 40px auto;
             width: 800px;
             padding: 40px;
             border: 1px solid #999;
             text-align: center;
+            background: #fff;
+            border-radius: 12px;
+            min-height: 400px;
         }
 
 button {
